@@ -9,10 +9,12 @@ body{
     font: normal 15pt arial;
 }
 header{
+    padding: 20px;
     text-align: center;
     color: white;
 }
 section{
+    text-align: center;
     margin: auto;
     background: white;
     border-radius: 10px;
@@ -21,8 +23,20 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
 }
 footer{
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
-    color: white;
+    color:white;
+}
+div#msg{
+    padding: 10px;
+}
+div#foto{
+    padding: 10px;
+}
+.img{
+    width: 300px;
+    border: none;
+    border-radius: 50%;
 }
